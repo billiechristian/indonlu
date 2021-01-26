@@ -10,7 +10,7 @@ from transformers.activations import gelu, gelu_new
 from transformers import BertConfig
 from transformers.file_utils import add_start_docstrings, add_start_docstrings_to_model_forward
 from transformers.modeling_utils import PreTrainedModel, prune_linear_layer
-from transformers.modeling_xlm import XLMPreTrainedModel
+# from transformers.modeling_xlm import XLMPreTrainedModel
 from transformers import AlbertPreTrainedModel, BertPreTrainedModel, AlbertModel, BertModel, BertConfig, XLMModel, XLMConfig, XLMRobertaModel, XLMRobertaConfig
 from transformers import AutoTokenizer, AutoConfig
 
